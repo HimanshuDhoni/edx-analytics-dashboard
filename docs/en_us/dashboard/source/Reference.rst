@@ -298,9 +298,9 @@ Engagement Computations
 
 .. TBD: schedule and interval for updating video data
 
-==============================
-Course Engagement Computations
-==============================
+=================================
+Content Engagement Computations
+=================================
 
 * The computations for engagement with course content are updated once a week,
   typically on Mondays.
@@ -370,38 +370,51 @@ For information about viewing engagement metrics in edX Insights, see
 Video Engagement Computations
 ==============================
 
-For information about viewing engagement metrics in edX Insights, see
-:ref:`Engagement_Video`.
+To compute data for video engagement, edX defines a video view as having both
+a play video action and a companion pause video action or the automated stop
+that occurs at the end of the video file. This definition of a video view does
+not include some normal interactions, such as closing the browser window
+without explicitly pausing the video file first. 
 
+For information about reviewing data for videos in edX Insights, see
+:ref:`Engagement_Video`.
 
 **Video Views stacked bar chart**
 
+* Each bar in the histogram aggregates data for all of the video components in
+  a section, subsection, or unit.
 
+ * The x-axis shows the sections, subsections, or units in the course.
 
-**Completion Rate metric**
-
-
-
-**Started Video metric**
-
-
-**Finished Video metric**
-
-
+ * The y-axis shows the total number of times the video file was viewed. The area
+   shaded in green represents the number of complete views. The area shaded in
+   gray represents the number of incomplete views. 
+  
 **Total Video Views stacked area chart**
-
-For a specific video, 
-
-
 
 * The x-axis shows the duration of the video.
 
-* The y-axis shows the total number of views for each five second segment of
-  the video. This total is divided into two stacked areas.
+* The y-axis shows the number of play events. 
 
- * The number of unique users who watched that segment of the video.
+* The filled area of this stacked area chart represents the total number of
+  times each five second segment of a video file has played.
 
- * The number of additional views, or replays, of that segment of the video.
+ * The area shaded in lighter blue represents the number of unique users who
+   played that segment of the video.
+
+ * The area shaded in darker blue represents the number of additional views,
+   or replays, of that segment of the video.
+
+**Video metrics**
+
+* The percentage of learners who started the video and continued playing it
+  until it automatically stopped at the end of the file.
+
+* The number of students who started playing the video file.
+
+* The number of students who played the video until it automatically stopped
+  at the end of the file.
+
 
 .. _Performance Computations:
 
