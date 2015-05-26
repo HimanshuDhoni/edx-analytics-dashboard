@@ -5,21 +5,11 @@ Computation Reference
 #######################
 
 This chapter provides detailed information about how values presented by
-edX Insights are computed. It contains sections for:
+edX Insights are computed. 
 
-* :ref:`All Computations`
-
-* :ref:`Enrollment Computations`
-
-* :ref:`Demographic Computations`
-
-* :ref:`Location Computations`
-
-* :ref:`Engagement Computations`
-
-* :ref:`Performance Computations`
-  
-* :ref:`Error Conditions`
+.. contents:: Section Contents 
+  :local:
+  :depth: 1
 
 .. _All Computations:
 
@@ -181,8 +171,8 @@ For information about viewing student demographic data in edX Insights, see
   educational level, not from the total number of students enrolled in the
   course.
 
-*  The table that follows shows each edX Insights label, the option that
-   students can select at registration, and a brief description.
+* The table that follows shows each edX Insights label, the option that
+  students can select at registration, and a brief description.
   
   .. list-table::
      :widths: 10 20 70
@@ -306,8 +296,14 @@ as well.
 Engagement Computations
 *********************************
 
-* The computations for student engagement are updated once a week, typically on
-  Mondays.
+.. TBD: schedule and interval for updating video data
+
+==============================
+Course Engagement Computations
+==============================
+
+* The computations for engagement with course content are updated once a week,
+  typically on Mondays.
 
 * Computations are made on data collected through Sunday at 23:59 UTC (11:59
   pm).
@@ -358,9 +354,6 @@ For information about viewing engagement metrics in edX Insights, see
   * Text input (`<stringresponse>`)
   * Math expression input (`<formularesponse>`)
 
-.. Gabe believes that there may actually be a few more. Subtask created.
-.. TODO: when complete list received, comment in doc for each problem type that Gabe determines to be a capa problem for future reference
-
 **Weekly Student Engagement graph**
   
 * The markers on the graph represent the number of users who interacted with
@@ -373,6 +366,42 @@ For information about viewing engagement metrics in edX Insights, see
 
 * The y-axis shows the number of unique users.
 
+==============================
+Video Engagement Computations
+==============================
+
+For information about viewing engagement metrics in edX Insights, see
+:ref:`Engagement_Video`.
+
+
+**Video Views stacked bar chart**
+
+
+
+**Completion Rate metric**
+
+
+
+**Started Video metric**
+
+
+**Finished Video metric**
+
+
+**Total Video Views stacked area chart**
+
+For a specific video, 
+
+
+
+* The x-axis shows the duration of the video.
+
+* The y-axis shows the total number of views for each five second segment of
+  the video. This total is divided into two stacked areas.
+
+ * The number of unique users who watched that segment of the video.
+
+ * The number of additional views, or replays, of that segment of the video.
 
 .. _Performance Computations:
 

@@ -1,292 +1,164 @@
 .. _Engagement_Video:
 
 #############################
-Ungraded Problem Submissions
+Engagement with Course Videos
 #############################
 
-How do learners answer problems that do not count toward their course grades?
-Do they answer these questions? Using edX Insights, you can review aggregate
-data for the ungraded problems in course sections and subsections. This data
-shows you how many learners are submitting answers, and what percentage of
-those answers are correct. Then, you can review the actual responses learners
-make to questions that are not part of the grading configuration for your
-course. You can also compare data about ungraded and graded course content.
-Information about learner performance on ungraded problems can help you
-understand where learners are making errors, and also find ways to improve
-the problems.
+Are learners watching the course videos? Do they watch some videos more than
+others? Of those who watched a video, what percentage watched it to the end?
+Do learners watch certain parts of the video more than once?
 
-This section begins with example analyses of different types of ungraded
-problems: initial assessments, practice problems, and surveys. These examples
-are followed by descriptions of how you :ref:`select a section and
-subsection<Selecting the Section, Subsection, and Problem>` and then
-:ref:`review learner answers<Review Answers to Ungraded Problems>`.
+The video engagement data in edX Insights gives you perspective on your
+learners' viewing patterns.
 
-*******************************************************
-Analytics in Action: Interpreting Ungraded Submissions
-*******************************************************
+Video engagement data is updated every week for the period Monday at 00:00
+UTC through Sunday at 23:59 UTC.
 
-A review of the distribution of answer submissions for an ungraded problem can
-lead to discoveries about your learners and about your course. 
+********************************************
+Gaining Insight into Viewing Patterns
+********************************************
 
-============================
-Initial Assessments 
-============================
+EdX Insights delivers data about learner engagement with videos in a series of
+charts and reports. Charts, metrics, and data are available for each of the
+videos in your course. To access data about a specific video, you select the
+section and subsection of the course that contain that video. When you make
+these selections, edX Insights provides aggregated data about viewing patterns
+for all videos in that part of the course outline.
 
-Ungraded problems that are included early in the courseware can provide
-valuable information about how well prepared enrolled learners are to complete
-your course successfully. You can use edX Insights to answer questions like
-these.
+For detailed information about the computations, see :ref:`Reference`.
 
-* What percentage of enrolled learners completed the initial set of exercises?
+*********************************************
+Selecting the Section, Subsection, and Video
+*********************************************
 
-* Do the submissions demonstrate the core competencies that you expect?
+To access data about a video component, follow these steps.
 
-* Do the submissions reflect common misconceptions?
+#. Open edX Insights at insights.edx.org. A list of the courses for which you
+   have the admin or staff role appears.
 
-.. Victor, more or better questions?
+#. Select the course.
 
-The illustration that follows is for a course that includes a preliminary
-assessment during "Week 0". The chart includes one bar for each of the
-problems in the subsection that contains the assessment. The percentage of
-incorrect answers is stacked on top of the percentage of correct answers in
-each bar. The chart indicates that for most of the questions, a significant
-percentage of learners submitted an incorrect answer.
+#. Select **How did students interact with course videos?**. Alternatively,
+   select **Engagement** and then **Video**. A chart and a table of aggregated
+   video data for the sections in your course appears. The chart only includes
+   bars for sections that include at least one video component.
 
-.. image:: ../images/problems_ungraded.png
- :alt: A chart showing that 30% or more of the learners submitted the
-     incorrect answer for most of the questions.
+#. Select a section in your course that contains video components. A chart and
+   a table of aggregated video data for each subsection in that section
+   appears. The chart only includes bars for subsections that include
+   at least one video component. 
 
-.. BUx/PY1x/1T2015/performance/ungraded_content/sections/i4x%3A//BUx/PY1x/chapter/1e2e85d75de44431a83f698c1aed99b6/subsections/i4x%3A//BUx/PY1x/sequential/1dbce9aea0fb4df1b22521cb02fd1c17/
+#. Select a subsection. A chart and a table of aggregated video data for each
+   unit in that subsection appears. The chart only includes bars for units
+   that include at least one video component.
 
-Reviewing this information early in the course run can help you decide whether
-to take any action, and what that action might be. For example, if relatively
-few of the enrolled learners are answering the question, you might decide to
-add a link to the edX DemoX course on your **Course Info** page. To help
-learners understand course prerequisites better, you could upload references
-to additional preparatory material. Or, you could decide to post more
-frequently, and with more detail, in the content-specific course discussions.
+#. Select the unit that contains the video component. A chart, metrics, and a
+   table of data for that video file appears.
 
-============================
-Practice Problems 
-============================
-
-To give learners opportunities to practice, gain confidence, and learn from
-their mistakes, many courses include ungraded problems throughout. The data
-available for practice problems in edX Insights can help you answer questions
-like these.
-
-* What percentage of learners submit answers to the practice problems? Does
-  that percentage change over time?
-
-* Do more learners answer the practice problems or the graded problems?
-
-* Do more learners answer the practice problems correctly, or the graded problems?
-
-The illustration that follows is for a course that includes ungraded practice
-problems in most sections. The chart includes one bar for each section in the
-course. The percentage of incorrect answers for the entire section is stacked
-on top of the percentage of correct answers in each bar. In this course, the
-number of learners submitting answers in each section went down over time.
-However, the percentage of learners who submitted the correct answer went up.
-
-.. image:: ../images/sections_ungraded.png
- :alt: A chart with a downward trend in number of learners answering, but with
-  lower percentages of incorrect answers.
-
-.. CaltechX/Ec1011x/1T2014/performance/ungraded_content/
-
-You can use the aggregated data for course sections and subsections to track
-changes in how many learners are working through the practice problems. You
-can also compare the answers submitted for similar ungraded and graded
-problems. Depending on what you find, you might consider changes to future
-versions of the course. For example, you might add or revise the explanations
-for the practice problems, or increase the number of attempt that learners
-have to submit the correct answer. You might also be able to find and address
-differences in problem difficulty.
-
-===============================================
-Surveys
-===============================================
-
-.. Victor, please let me know if we should include this section at this time. The semi-critical "show_correctness" attribute that one sets in Studio is not currently documented...
-
-If you use problem components to survey your learners, you can use edX
-Insights to review their responses. The data available for survey-type
-problems in edX Insights can help you answer questions like these.
-
-* How many learners responded? 
-
-* For questions with a limited number of possible answers, such as multiple
-  choice, what percentage of learners selected each answer?
-
-* For open-ended questions, such as text input, what did learners submit?
-
-The illustration that follows shows the number of students who selected each
-of the choices offered for a multiple choice question. The chart includes one
-bar for each answer.
-
-.. note:: If you do not explicitly identify a correct answer for a
- question in Studio, all submitted answers are marked as incorrect. As a
- result, the bar charts for these questions appear in a single color in
- Insights instead of showing stacked percentages.
-
-.. image:: ../images/survey_ungraded.png
- :alt: A chart showing that students chose a wide range of answers, all marked incorrect.
-
-.. BerkeleyX/GG101x/1T2014/performance/ungraded_content/sections/i4x%3A//BerkeleyX/GG101x/chapter/d13fe70f7ca44a8f85f2d38efdc8d86c/subsections/i4x%3A//BerkeleyX/GG101x/sequential/0c8e4c5cdb3a4329a9a12f2e33c1fd76/problems/i4x%3A//BerkeleyX/GG101x/problem/89d1916b958341129ad23fd75a09df48/parts/i4x-BerkeleyX-GG101x-problem-89d1916b958341129ad23fd75a09df48_2_1/answer_distribution/
-
-The downloadable reports of answer data that are available from Insights can
-aid further analysis of survey answers.
-
-.. _Selecting the Section, Subsection, and Problem:
+For detailed information about the computations, see :ref:`Reference`.
 
 *******************************************************
-Selecting the Section, Subsection, and Problem
+Analytics in Action: Interpreting Viewing Patterns
 *******************************************************
 
-To access data about the answers that learners submit for an ungraded problem
-component, you make these selections.
+A review of what learners in your course watch can lead to discoveries
+about your videos and about your course.
 
-Step 1: Select a section in the course.
+* You can determine how many learners watch each video.
 
-Step 2: Select a subsection. 
+* You can determine how many learners watch the entire video, and where the
+  other learners drop out.
 
-Step 3: Select a problem.
+* You can find video segments that learners watched more than once.
 
-EdX Insights provides aggregated data for each selection that you make. 
+You can use this information to guide research on your video files and assess
+where you might make changes.
 
-==================================
-Step 1: Select a Section
-==================================
+=======================================================
+Investigating Video Views for Sections and Subsections
+=======================================================
 
-After you select **Performance** and **Ungraded Problems**, edX Insights
-displays a stacked bar chart that summarizes learner performance on ungraded
-problems in every section in the course. 
+To access data about a video, you select the section and subsection that
+contain the video. When you make each of these selections, edX Insights
+provides aggregated data of complete and incomplete video views.
 
-.. image:: ../images/ungraded_section_selection.png
- :alt: A chart with two bars, one for each course section that includes
-  ungraded content.
+In this chart of video views for the sections in a completed course, each bar
+represents the number of views of all videos in a section. Each of the bars is
+divided into the number of completed views in green and the number of
+incomplete views in gray.
 
-The graph includes a bar for a section only if it both contains an ungraded problem
-and at least one learner has submitted an answer. You use the drop-down
-**Select Section** menu, or click a bar in the chart, to select a section to
-investigate.
+.. image:: ../images/video_sections.png
+ :alt: A stacked bar chart showing varying levels of complete video watching.
 
-The Section Submissions report on this page provides the number of ungraded
-problems in each course section, and the aggregate number of correct and
-incorrect submissions received.
+Reviewing the aggregated data in this chart might lead you to investigate
+several questions. You might want to understand why there are so many more
+incomplete views in some of the sections than in others. Does your course have
+numerous short videos in most of the sections, and fewer, comparatively long
+videos in one or two of the other sections? Is there a difference in quality?
+Could you have, accidentally or deliberately, included the same video file in
+your course more than once?
 
-==============================
-Step 2: Select a Subsection 
-==============================
+When you select a section with a relatively low number of complete views,
+another stacked bar chart displays for the subsections in that section. 
 
-After you select the course section, edX Insights displays a stacked bar chart
-that summarizes learner performance on the ungraded problems in each
-subsection. In this example from the edX DemoX course, there is only one
-subsection in the selected section.
+.. image:: ../images/video_subsections.png
+ :alt: A stacked bar chart for three subsections. In one subsection, fewer
+  than a third of the students who started videos finished watching them.
 
-.. image:: ../images/ungraded_subsection_selection.png
- :alt: A chart with only one bar, for the sinlge subsection with ungraded content.
+This chart helps you focus your investigation on the first subsection, in
+which more than twice as many learners begin to view a video than complete the
+viewing. After you select that subsection, the chart for video views in the
+units appears. Once again, the aggregate data can help guide your
+investigation into the disproportionate number of incomplete video views.
 
-The Subsection Submissions report on this page provides the number of ungraded
-problems in each subsection and the aggregate number of correct and incorrect
-submissions received for each one.
+================================
+Researching Replayed Segments
+================================
 
-You use the drop-down **Select Subsection** menu or click a bar in the
-chart to select the subsection you want to examine further.
+When you review the chart for a video, you can see which five second segments
+learners played more than once. The stacked area graph shows replays in darker
+blue above plays by unique users.
 
-=========================
-Step 3: Select a Problem
-=========================
+When you see the graph for this video, you decide to investigate what exactly
+happens at the 40 second mark.
 
-After you select a subsection, edX Insights displays a stacked bar chart that
-summarizes learner performance on each problem in that assignment. In this
-example from the edX Demo course, the selected subsection includes
-four problems. 
+.. image:: ../images/video_replays.png
+ :alt: A chart showing a noticeable increase in the number of replays 40
+  seconds in to the video.
 
-.. image:: ../images/ungraded_problem_selection.png
- :alt: A chart with four bars, one for each ungraded problem in the selected
-     subsection.
+.. https://stage-insights.edx.org/courses/BerkeleyX/ColWri.2.2x/1T2015/engagement/videos/sections/i4x%3A//BerkeleyX/ColWri.2.2x/chapter/42e28dbf0b81488887be0f92a44484c9/subsections/i4x%3A//BerkeleyX/ColWri.2.2x/sequential/19a7ac548119487181e1f466cf48444c/modules/i4x%3A//BerkeleyX/ColWri.2.2x/video/ebe6682c6c3f424c9e59fff972ac19a4/timeline/
 
-The Problem Submissions report on this page provides the number of questions
-in each problem and the aggregate number of correct and incorrect submissions
-received for each one.
+To find out what that segment of the video contains, you select **View Live**
+to open the LMS to the unit that contains that video. In this example, a
+single word is difficult to understand. Because the transcript for the video
+is accurate, you might decide that no action is needed in this case.
 
-You use the drop-down **Select Problem** menu or click a bar in the chart to
-select the problem that you want to examine further.
+In another video, the stacked area graph shows that learners replayed certain
+segments of the video, particularly near the end, more often than others.
 
-If the problem that you select includes more than one part (or question), the
-first part appears. To select a different part, you use the drop-down
-**Submissions for Part {number}** menu. 
+.. image:: ../images/video_frequent_replays.png
+ :alt: A chart showing significant increases in the number of replays during
+     the last three minutes of the video.
 
-.. _Review Answers to Ungraded Problems:
+.. https://stage-insights.edx.org/courses/course-v1%3ACaltechX%2BEc1011x_2%2BT12015/engagement/videos/sections/block-v1%3ACaltechX%2BEc1011x_2%2BT12015%2Btype%40chapter%2Bblock%40d9e39345ddf744dd901cc9b290b72854/subsections/block-v1%3ACaltechX%2BEc1011x_2%2BT12015%2Btype%40sequential%2Bblock%40228af3c5dd49458393b568c52777618e/modules/block-v1%3ACaltechX%2BEc1011x_2%2BT12015%2Btype%40video%2Bblock%40aad61465c75f43d1ba5c8c8acb25a054/timeline/
 
-*************************************
-Review Answers to Ungraded Problems
-*************************************
+After you review the video in the LMS, you might decide that the increased
+number of replays was an indicator of the complexity of the material being
+covered. You might decide to spend some extra time answering questions in the
+discussion topic for that unit, or provide a course handout with additional
+references on the material covered for learners who want them.
 
-After you select a problem or problem part, edX Insights displays submission
-data in a bar chart and a report that you can view or download. Descriptions
-of the chart and report follow. For detailed information about the
-computations, see :ref:`Reference`.
+==========================================
+Establishing an Engagement Baseline
+==========================================
 
-.. note:: Problems that use the **Randomization** setting in Studio result in
- many possible submission variants, both correct and incorrect. As a result,
- edX Insights does not attempt to present a chart of the responses submitted
- for these problems. You can download the Submissions Counts report to
- analyze the answers that are of interest.
+Week 1 of your course begins with a videotaped lecture that is about an hour
+long. About two weeks after the course start date you use the video metrics
+available in edX Insights to find that over 35,000 learners started playing
+the video, and that almost 18,000 learners completed it.
 
-==================
-Submissions Chart
-==================
-
-The bars on this chart represent the number of enrolled learners who submitted
-a particular answer to a question in a problem component. The x-axis includes
-the most frequently submitted answers, up to a maximum of 12. Due to space
-limitations, the answer text that is used to label the x-axis might be
-truncated. Moving your cursor over each bar shows a longer version of the
-answer.
-
-.. image:: ../images/answers_ungraded.png
- :alt: A chart showing an even split between correct and incorrect answers for
-     a True or False question.
-
-.. edX/DemoX.1/2014/performance/ungraded_content/sections/i4x%3A//edX/DemoX.1/chapter/0af8db2309474971bfa70cda98668a30/subsections/i4x%3A//edX/DemoX.1/sequential/ec3364075f2845baa625bfecd5970410/problems/i4x%3A//edX/DemoX.1/problem/47bf6dbce8374b789e3ebdefd74db332/parts/i4x-edX-DemoX_1-problem-47bf6dbce8374b789e3ebdefd74db332_2_1/answer_distribution/
-
-To review the problem component in the LMS the way a learner sees it, select
-**View Live** and then at the top of the page use the **View this course as**
-option to select learner. The LMS displays the page that contains this problem
-in learner View. For more information, see `View Your Live Course`_.
-
-All submitted answers, and complete answer values, are available for review in
-tabular format at the bottom of the page and can also be downloaded.
-
-For more information, see the :ref:`Reference`.
-
-=========================
-Submission Counts Report
-=========================
-
-A report with a row for each problem-answer combination submitted by your
-learners is available for review or download. The report columns show each
-submitted answer, identify the correct answer or answers, and provide the
-number of learners who submitted that answer.
-
-To download the Submission Counts report in a comma-separated value
-file, select **Download CSV**.
-
-The report includes one row for each problem-answer combination submitted by a
-learner. For example, consider a dropdown problem that has five possible
-answers. The report or file contains up to five rows, one for each answer
-submitted by at least one learner.
-
-For problems that use the **Randomization** feature in Studio, the report has
-one row for each problem-variant-answer combination selected by at least one
-learner. For more information about this randomization option, see
-`Randomization`_.
-
-See the :ref:`Reference` for a detailed description of each column.
-
-.. _Randomization: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#randomization
-
-.. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html?highlight=view%20live#view-your-live-course
+You decide that this count of 18,000 will be more meaningful as a baseline of
+committed learners than the overall course enrollment count. As your course
+progresses, you use the number of learners who completed the first video as
+the basis for evaluating how many learners continue to engage with course
+content.
